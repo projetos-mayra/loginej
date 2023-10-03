@@ -1,10 +1,11 @@
 
 body{
-  background-color: black;
+  background-color: #9F0303;
   font-family: 'Poppins', sans-serif;
   overflow: hidden;
 
 }
+
 
 .area-login{
   display: flex;
@@ -19,7 +20,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: aqua;
+  background-color: #F7F7F7;
   border-radius: 10px;
   width: 355px;
   height: 320px;
@@ -35,9 +36,9 @@ body{
 
 .login input{
   margin-top: 10px;
-  background-color: blueviolet;
+  background-color: #E8E5E5;
   padding-left: 10px;
-  color: brown;
+  color: #9F0303;
   border: none;
   height: 45px;
   outline: none;
@@ -50,14 +51,14 @@ body{
 }
 
 input::placeholder{
-  color: brown;
+  color: #9F0303;
   font-size: 14px;
   
 }
 
 form [type="submit"]{
   display: block;
-  background-color: green;
+  background-color: #9F0303;
   font-size: 20px;
   text-transform: uppercase;
   font-weight: bold;
@@ -65,11 +66,11 @@ form [type="submit"]{
 }
 
 p{
-  color: brown;
+  color: #9F0303;
 }
 
 a{
-  color: yellow;
+  color: #F6C314;
   text-decoration: none;
   margin-left: 10px;
 }
